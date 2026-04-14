@@ -1,0 +1,50 @@
+<svg width="100%" viewBox="0 0 560 340" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Advance &amp; Retention Invoice for Contracting — banner</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Module banner showing name, author, and key features</desc>
+
+  <!-- Background -->
+  <rect width="560" height="280" fill="#1a3a5c" style="fill:rgb(26, 58, 92);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Decorative geometric shapes -->
+  <rect x="400" y="-30" width="220" height="220" rx="40" fill="#185FA5" opacity="0.5" transform="rotate(20 400 80)" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="460" y="120" width="160" height="160" rx="30" fill="#0C447C" opacity="0.6" transform="rotate(-15 460 200)" style="fill:rgb(12, 68, 124);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="60" cy="240" r="90" fill="#0C447C" opacity="0.35" style="fill:rgb(12, 68, 124);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="30" cy="260" r="50" fill="#185FA5" opacity="0.25" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.25;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Accent line -->
+  <rect x="48" y="60" width="4" height="60" rx="2" fill="#FAC775" style="fill:rgb(250, 199, 117);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Module title -->
+  <text x="64" y="95" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:26px;font-weight:700;text-anchor:start;dominant-baseline:auto">Advance &amp; Retention</text>
+  <text x="64" y="128" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#FAC775" style="fill:rgb(250, 199, 117);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:26px;font-weight:700;text-anchor:start;dominant-baseline:auto">Invoice for Contracting</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="158" font-family="Arial, sans-serif" font-size="13" fill="#B5D4F4" style="fill:rgb(181, 212, 244);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:400;text-anchor:start;dominant-baseline:auto">Odoo 18  ·  Accounting  ·  Saudi Arabia / GCC</text>
+
+  <!-- Divider -->
+  <line x1="48" y1="175" x2="512" y2="175" stroke="#378ADD" stroke-width="0.5" opacity="0.5" style="fill:rgb(0, 0, 0);stroke:rgb(55, 138, 221);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Feature pills -->
+  <!-- Pill 1 -->
+  <rect x="48" y="188" width="130" height="26" rx="13" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="113" y="205" font-family="Arial, sans-serif" font-size="11" fill="#E6F1FB" text-anchor="middle" style="fill:rgb(230, 241, 251);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Advance Payment</text>
+
+  <!-- Pill 2 -->
+  <rect x="188" y="188" width="120" height="26" rx="13" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="248" y="205" font-family="Arial, sans-serif" font-size="11" fill="#E6F1FB" text-anchor="middle" style="fill:rgb(230, 241, 251);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Retention Amount</text>
+
+  <!-- Pill 3 -->
+  <rect x="318" y="188" width="110" height="26" rx="13" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="373" y="205" font-family="Arial, sans-serif" font-size="11" fill="#E6F1FB" text-anchor="middle" style="fill:rgb(230, 241, 251);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">VAT 15% (ZATCA)</text>
+
+  <!-- Pill 4 -->
+  <rect x="438" y="188" width="80" height="26" rx="13" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="478" y="205" font-family="Arial, sans-serif" font-size="11" fill="#E6F1FB" text-anchor="middle" style="fill:rgb(230, 241, 251);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Auto Journal</text>
+
+  <!-- Author -->
+  <text x="48" y="250" font-family="Arial, sans-serif" font-size="12" fill="#85B7EB" style="fill:rgb(133, 183, 235);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">By Nooh Suliman</text>
+
+  <!-- Price badge -->
+  <rect x="460" y="233" width="72" height="28" rx="8" fill="#FAC775" style="fill:rgb(250, 199, 117);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="496" y="252" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#412402" text-anchor="middle" style="fill:rgb(65, 36, 2);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:14px;font-weight:700;text-anchor:middle;dominant-baseline:auto">$10 USD</text>
+</svg>
