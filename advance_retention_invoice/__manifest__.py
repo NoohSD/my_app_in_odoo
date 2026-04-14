@@ -15,7 +15,7 @@
     """,
     'author': 'Nooh Suliman',
     'website': 'https://www.linkedin.com/in/nooh-suliman/',
-    'depends': ['account', 'l10n_gcc_invoice'],
+    'depends': ['account'],
     'images': ['static/description/banner.png'],
     'data': [
         'security/ir.model.access.csv',
