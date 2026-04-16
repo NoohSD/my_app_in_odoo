@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Advance & Retention Invoice for Contracting',
+    'name': 'Advance & Retention Amounts on Invoices',
     'version': '18.0.1.0.0',
     'category': 'Accounting/Accounting',
-    'summary': 'Manage Advance Payments and Retention Amounts on Invoices for Contracting Companies',
+    'summary': 'Manage Advance Payments and Retention Amounts on Invoices',
     'description': """
         This module is designed for contracting companies and adds:
         - Advance Payment Amount field on invoices
@@ -15,7 +15,7 @@
     """,
     'author': 'Nooh Suliman',
     'website': 'https://www.linkedin.com/in/nooh-suliman/',
-    'depends': ['account', 'l10n_gcc_invoice'],
+    'depends': ['account'],
     'images': ['static/description/banner.png'],
     'data': [
         'security/ir.model.access.csv',
