@@ -57,7 +57,7 @@ Dependencies:
     'auto_install': False,
     'license': 'LGPL-3',
 
-    'price': 0,
+    'price': 5,
     'currency': 'USD',
 
     'application': False,
