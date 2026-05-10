@@ -44,7 +44,7 @@ Perfect for:
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
-    'price': 0,
+    'price': 10,
     'currency': 'USD',
     'application': False,
 }
