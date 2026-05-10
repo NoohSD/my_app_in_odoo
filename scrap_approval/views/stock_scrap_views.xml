@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_stock_scrap_form_approval" model="ir.ui.view">
+        <field name="name">stock.scrap.form.approval</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='state']" position="before">
+                <button name="action_submit_for_approval"
+                        string="Submit for Approval"
+                        type="object"
+                        class="btn-primary"
+                        invisible="state != 'draft'"/>
+
+                <button name="action_approve"
+                        string="✓ Approve"
+                        type="object"
+                        class="btn-success"
+                        invisible="state != 'waiting_approval'"
+                        groups="scrap_approval.group_scrap_operations_manager"/>
+
+                <button name="action_cancel"
+                        string="✗ Cancel"
+                        type="object"
+                        class="btn-danger"
+                        invisible="state != 'waiting_approval'"
+                        groups="scrap_approval.group_scrap_operations_manager"/>
+
+                <button name="action_reset_to_draft"
+                        string="Reset to Draft"
+                        type="object"
+                        invisible="state != 'cancel'"/>
+            </xpath>
+
+            <xpath expr="//button[@name='action_validate']" position="replace"/>
+            <xpath expr="//field[@name='scrap_reason_tag_ids']" position="before">
+                    <field name="approved_by" readonly="1"/>
+                    <field name="approved_date" readonly="1"/>
+                    <field name="approval_note" readonly="state in ['done', 'cancel']"/>
+            </xpath>
+
+            <xpath expr="//field[@name='location_id']" position="attributes">
+            <attribute name="domain">
+                [('usage','=','internal'),
+                 ('manager_ids','in',[uid])]
+            </attribute>
+        </xpath>
+        </field>
+           
+    </record>
+
+</odoo>
