@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <record id="view_stock_scrap_form_approval" model="ir.ui.view">
         <field name="name">stock.scrap.form.approval</field>
         <field name="model">stock.scrap</field>
@@ -21,34 +20,37 @@
                         invisible="state != 'waiting_approval'"
                         groups="scrap_approval.group_scrap_operations_manager"/>
 
+               <button name="action_reject"
+                    string="✗ Reject"
+                        type="object"
+                        class="btn-warning"
+                        invisible="state != 'waiting_approval'"
+                        groups="scrap_approval.group_scrap_operations_manager"/>
+
                 <button name="action_cancel"
                         string="✗ Cancel"
                         type="object"
                         class="btn-danger"
-                        invisible="state != 'waiting_approval'"
+                        invisible="state not in ['draft', 'waiting_approval']"
                         groups="scrap_approval.group_scrap_operations_manager"/>
 
                 <button name="action_reset_to_draft"
                         string="Reset to Draft"
                         type="object"
-                        invisible="state != 'cancel'"/>
+                        invisible="state not in ['cancel', 'rejected']"/>
             </xpath>
 
             <xpath expr="//button[@name='action_validate']" position="replace"/>
+
             <xpath expr="//field[@name='scrap_reason_tag_ids']" position="before">
-                    <field name="approved_by" readonly="1"/>
-                    <field name="approved_date" readonly="1"/>
-                    <field name="approval_note" readonly="state in ['done', 'cancel']"/>
+                <field name="approved_by" readonly="1"/>
+                <field name="approved_date" readonly="1"/>
+                <field name="cancellation_reason"
+                       readonly="1"
+                        invisible="state not in ['cancel', 'rejected']"/>
+                <field name="approval_note" readonly="state in ['done', 'cancel']"/>
             </xpath>
 
-            <xpath expr="//field[@name='location_id']" position="attributes">
-            <attribute name="domain">
-                [('usage','=','internal'),
-                 ('manager_ids','in',[uid])]
-            </attribute>
-        </xpath>
         </field>
-           
     </record>
-
 </odoo>

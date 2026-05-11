@@ -105,7 +105,14 @@
     <div class="feature">
         <div class="feature-text">
             <h3>Validation Protection</h3>
+             <p>The system validates the requested quantity against available stock both at submission and approval time. Orders exceeding available stock are blocked with a clear error message.</p>
             <p>The standard Validate button is removed. Orders can only be processed after passing through the full approval workflow.</p>
+        </div>
+    </div>
+        <div class="feature">
+        <div class="feature-text">
+            <h3>Manager Notes</h3>
+            p>The Operations Manager can now reject scrap orders with a mandatory reason. A popup appears to capture the rejection reason before changing the status to <strong>Rejected</strong>.</p>
         </div>
     </div>
 
@@ -131,12 +138,27 @@
     <p class="screenshot-caption">
         .
     </p>
+     
+    <p class="screenshot-caption">
+        The Operations Manager can now reject scrap orders with a mandatory reason. A popup appears to capture the rejection reason before changing the status to <strong>Rejected</strong>.
+        Users can cancel scrap orders directly from <strong>Draft</strong> or <strong>Waiting Approval</strong> status without going through the approval process.
+        Every submitted scrap order automatically gets a 48-hour approval deadline. A scheduled job notifies the Operations Manager when orders are overdue.
+        <img src="reg1.png" alt="Scrap Order Draft" class="screenshot"/>
+    <img src="reg2.png" alt="Scrap Order Draft" class="screenshot"/>
+    <p class="screenshot-caption">
+        .
+    </p>
+
+     <p class="screenshot-caption">
+        The system validates the requested quantity against available stock both at submission and approval time. Orders exceeding available stock are blocked with a clear error message.
+    </p>
+    <img src="val.png" alt="Scrap Order Waiting Approval" class="screenshot"/>
 
     <p class="screenshot-caption">
         Waiting Approval state — Operations Manager sees Approve and Cancel buttons with full order details and chatter history.
         Scrap orders list showing approval status for each order with instant manager 
     </p>
-    <img src="screenshot_form_waiting.png" alt="Scrap Order Waiting Approval" class="screenshot"/>
+        <img src="screenshot_list1.png" alt="Scrap Orders List" class="screenshot"/>
     <p class="screenshot-caption">
         .
     </p>
@@ -144,22 +166,30 @@
     <p class="screenshot-caption">
         When a scrap order is submitted, all assigned managers receive an instant internal notification with full order details including product name and quantity
     </p>
-    <img src="screenshot_list.png" alt="Scrap Orders List" class="screenshot"/>
+    <img src="screenshot_list3.png" alt="Scrap Orders List" class="screenshot"/>
+    <p class="screenshot-caption">
+        .
+    </p>
+    <p class="screenshot-caption">
+        Every action (submit, approve, reject, cancel, reset) is automatically logged in the chatter with the user name and timestamp for full traceability.
+    </p>
+    <img src="log.png" alt="Scrap Orders List" class="screenshot"/>
     <p class="screenshot-caption">
         .
     </p>
 
-    <h2>Approval Workflow</h2>
+    
+    <h2>🔄 Approval Workflow</h2>
     <div class="workflow">
-        Draft<br/>
+    Draft<br/>
         &nbsp;&nbsp;↓ [Submit for Approval]<br/>
         Waiting Approval<br/>
-        &nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
-        [Approve]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cancel]<br/>
-        &nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
-        Done ✅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cancelled ❌<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reset to Draft]
+        &nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
+        [Approve]&nbsp;&nbsp;&nbsp;[Reject]&nbsp;&nbsp;&nbsp;[Cancel]<br/>
+        &nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
+        Done ✅&nbsp;&nbsp;Rejected ❌&nbsp;&nbsp;Cancelled ❌<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reset to Draft]
     </div>
 
     <h2>Information</h2>
